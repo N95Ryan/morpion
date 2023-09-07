@@ -12,7 +12,10 @@ body {
   grid-template-columns: 100px 100px 100px;
   grid-template-rows: 100px 100px 100px;
   cursor: pointer;
-  position: relative;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .tile {
@@ -90,7 +93,8 @@ h1 {
   border: #F7A105 8px solid;
   padding: 50px;
   width: 50%;
-  margin-top: 50px;
+  position: absolute;
+  bottom: 150px;
 }
 
 h2 {
